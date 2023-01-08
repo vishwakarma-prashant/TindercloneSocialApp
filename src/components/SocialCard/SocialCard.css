@@ -1,0 +1,67 @@
+.socialMainCard {
+    margin: 20px;
+    position: relative;
+    background-color: rgb(239, 239, 230);
+    width: 300px;
+    max-width: 85vw;
+    height: 50vh;
+    box-shadow: 0px 10px 0px 0px #00000044;
+    padding: 5px;
+    border-radius: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.socialCards {}
+
+.socialCardContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+.socialSwipe {
+    position: absolute;
+}
+
+.socialMainCard h3 {
+    position: absolute;
+    bottom: 0;
+    color: aliceblue;
+    text-shadow: 0px 1px 2px rgb(0, 0, 0);
+    margin: 20px;
+}
+
+@media screen and (max-width:750px) {
+    .socialMainCard {
+        position: relative;
+        background-color: beige;
+        width: 400px;
+        max-width: 85vw;
+        height: 50vh;
+        box-shadow: 0px 2px 10px 0px black;
+        padding: 10px;
+        border-radius: 20px;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .socialCardContainer {
+        display: flex;
+        justify-content: center;
+        margin-top: 1vh;
+        height: 100%;
+        width: 100%;
+    }
+    .socialSwipe {
+        position: absolute;
+    }
+    .socialMainCard h3 {
+        position: absolute;
+        bottom: 0;
+        color: aliceblue;
+        text-shadow: 0px 1px 2px rgb(0, 0, 0);
+        margin: 20px;
+    }
+}
